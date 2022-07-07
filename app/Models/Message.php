@@ -18,7 +18,6 @@ class Message extends Model
         'message'
     ];
 
-
     public function excerpt()
     {
         return Str::limit($this->message, 20);
